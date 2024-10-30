@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 3px;
+}
+
+.main{
+    width: 160px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+}
+.insta{
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 25px;
+}
+.instagram{
+    width: 90px;
+    height: 90px;
+    border: 10px solid #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.instagram2{
+    width: 45px;
+    height: 45px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+}
+.instagram::after{
+    content: '';
+    background: #fff;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    right: 8px; 
+}
+.fblogo{
+    width: 125px;
+    height: 125px;
+    background: #4169e1;
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+h2{
+        color: #fff;
+        font-size: 143px;
+        font-family: sans-serif;
+        margin-top: 25px;
+     }
+.wiki{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 52px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h3{
+    color: #000;
+    font-size: 100px;
+    margin-top: 30px;
+    font-family: Garamond;
+}
+.whatsapp{
+    width: 130px;
+    height: 130px;
+    border-radius: 36px;
+    background: #008000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+body{
+    background: #4b0082;
+}
+p.note{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 380px;
+    margin-right: 380px;
+    border: solid black 3px;
+    color: #fff;
+}
+
+.main2{
+    width: 400px;
+    height: 20px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 305px;
+}
+.fb1{
+    color: white;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+.ins2{
+    color: white;
+    margin-left: 8%;
+    margin-right:13%;
+}
+.wiki3{
+    color: white;
+    margin-left: 12%;
+    margin-right:10%;
+}
+.wha4{
+    color: white;
+    margin-left: 13%;
+    margin-right:10%;
+}
