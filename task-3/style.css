@@ -1,12 +1,74 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
-body{
-    background-color: orange;
+body {
+  background-color: orange;
 }
-.container{
-    background-color: green;
-    color: white;
+.container {
+  background-color: rgb(61, 67, 61);
+  width: 65%;
+  height: 92vh;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+.head {
+  background-color: rgb(190, 137, 40);
+  padding: 4%;
+}
+.nav {
+  background-color: chartreuse;
+  padding: 2%;
+}
+.span1 {
+  margin-left: 3%;
+}
+.link {
+  margin-right: 5%;
+  text-decoration: none;
+  color: black;
+}
+h2 {
+  margin-left: 5%;
+  color: rgb(25, 183, 25);
+}
+.ptag {
+  font-size: 84%;
+  color: white;
+  padding-left: 2%;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 15px;
+  width: 75%;
+  margin-top: 2%;
+}
+.text2 {
+  margin-top: 7%;
+  padding: 3%;
+  color: rgb(25, 183, 25);
+}
+ul {
+  height: 24px;
+  width: 100px;
+}
+.ptag2 {
+  font-size: 84%;
+  color: white;
+  padding-left: 5%;
+  margin-top: 1%;
+}
+.span2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  color: darkslategray;
 }
