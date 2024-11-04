@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.head {
+  height: 6.25rem;
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#mntlg {
+  width: 8.75rem;
+  height: 6.25rem;
+}
+
+#grcrlg {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+button {
+  width: 4.5rem;
+  height: 2.6875rem;
+  border-radius: 1.25rem;
+  position: absolute;
+  right: 1.25rem;
+  cursor: pointer;
+}
+.daire {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  right: 27px;
+  border: 1px solid black;
+}
+.links {
+  width: 100%;
+  height: 3.125rem;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+#title {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container {
+  width: 100%;
+  height: 80vh;
+  padding: 0 6%;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.card {
+  width: 19.375rem;
+  height: 19rem;
+  padding: 5px;
+  border-radius: 5%;
+  border: 2px solid teal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+#img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+.cardh {
+  height: 20%;
+  color: teal;
+  padding: 10px;
+}
+.cardd {
+  height: 20%;
+  padding: 10px;
+}
+footer {
+  width: 100%;
+  height: 3.75rem;
+  padding: 20px 0px;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+}
+.arw {
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  border-radius: 50%;
+  background-color: teal;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  cursor: pointer;
+}
+.arrow {
+  border: white solid;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 7px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
