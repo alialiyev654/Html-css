@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./images/tree-img.jpg");
+  background-size: cover;
+}
+#treelogo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+#menulogo {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.writingsec {
+  width: 25rem;
+  height: 31.25rem;
+  padding: 1.25rem;
+  margin-left: 8.125rem;
+  margin-top: 6.25rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#logo {
+  width: 40px;
+  height: 40px;
+}
+.d-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+  position: fixed;
+  top: 200px;
+  right: 20px;
+}
+.button {
+  margin-top: 1.25rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.625rem;
+}
+.but-des {
+  border: 1px solid black;
+  background-color: chartreuse;
+  padding: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.but-des:hover {
+  background-color: white;
+  transition: 1s;
+}

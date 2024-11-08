@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+li {
+  padding: 15px;
+  color: white;
+}
+ol {
+  margin-left: auto;  
+  margin-right: auto;
+  padding: 0px 30px;
+  width: 25rem;
+}
+li:first-child {
+  background-color: black;
+}
+li:nth-child(2) {
+  background-color: #c0c0c0;
+}
+li:nth-child(3) {
+  background-color: #808080;
+}
+li:nth-child(4) {
+  background-color: #3498db;
+}
+li:nth-child(5) {
+  background-color: #800000;
+}
+li:nth-child(6) {
+  background-color: red;
+}
+li:nth-child(7) {
+  background-color:#800080 ;
+}
+
+li:nth-child(8) {
+  background-color: #3498db;
+}
+li:nth-child(9) {
+  background-color: #ff00ff;
+}
+li:nth-child(10) {
+  background-color: #008000;
+}
+li:nth-child(11) {
+  background-color: #00ff00;
+}
+li:nth-child(12) {
+  background-color: #ffff00;
+}
+li:nth-child(13) {
+  background-color: #4d4d1f;
+}
+li:nth-child(14) {
+  background-color: #000080;
+}
+li:nth-child(15) {
+  background-color: teal;
+}
+li:last-child {
+  background-color:aqua;
+}
+li:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
