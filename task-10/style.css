@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-image: url("./image/login-bg.png");
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid white;
+  height: auto;
+  border-radius: 10px;
+  backdrop-filter: saturate(180%) blur(0.3125rem);
+}
+
+.top input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  outline: none;
+  background: transparent;
+}
+h1 {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  display: flex;
+  margin: 0px 6px;
+}
+#submit {
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.orta {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
+input::placeholder {
+  color: white;
+}
